@@ -1,10 +1,10 @@
 import ReadLine from 'readline';
 import { stdin, stdout } from 'process';
-import { up } from '../src/navigation/up.js';
-import { cd } from '../src/navigation/cd.js';
+import { up } from '../src/nav/up.js';
+import { cd } from '../src/nav/cd.js';
 import { getByePhrase } from '../src/data/getByePhrase.js';
 import { getName } from '../src/data/getName.js';
-import { ls } from '../src/navigation/ls.js';
+import { ls } from '../src/nav/ls.js';
 import { cat } from '../src/operation/cat.js';
 import { getOtherArgs } from './getOtherArgs.js';
 
